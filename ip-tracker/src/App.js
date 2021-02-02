@@ -1,4 +1,5 @@
 import './App.css';
+import IPLocation from './components/IPLocation'
 
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
 
 
       IP Address Tracker
+      <IPLocation />
 
       Search for any IP address or domain
 
