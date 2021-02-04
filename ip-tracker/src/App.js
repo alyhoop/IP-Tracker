@@ -1,11 +1,10 @@
 import './App.css';
 import IPLocation from './components/IPLocation'
+import Map from './components/Map'
 
 function App() {
   return (
     <div className="App">
-
-
       <h2>IP Address Tracker</h2>
       <IPLocation />
 
@@ -16,7 +15,7 @@ function App() {
       <h6>Timezone</h6>
         UTC /* add offset value dynamically using the API*/
       <h6>ISP</h6>
-
+      <Map />
     </div>
   );
 }
