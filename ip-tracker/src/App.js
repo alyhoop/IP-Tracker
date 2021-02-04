@@ -6,16 +6,16 @@ function App() {
     <div className="App">
 
 
-      IP Address Tracker
+      <h2>IP Address Tracker</h2>
       <IPLocation />
 
-      Search for any IP address or domain
+      placeholder=Search for any IP address or domain
 
-      IP Address
-      Location
-      Timezone
+      <h6>IP Address</h6>
+      <h6>Location</h6>
+      <h6>Timezone</h6>
         UTC /* add offset value dynamically using the API*/
-      ISP
+      <h6>ISP</h6>
 
     </div>
   );
