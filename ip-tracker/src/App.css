@@ -30,6 +30,12 @@ h6 {
   color: hsl(0, 0%, 59%);
 }
 
+input {
+  border-radius: 5px;
+  height: 30px;
+  width: 400px;
+}
+
 .App {
   text-align: center;
 }

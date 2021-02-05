@@ -1,6 +1,6 @@
 let information = () => {
   return (
-    <div>
+    <div className="ip__information">
       <h6>IP Address</h6>
       <h6>Location</h6>
       <h6>Timezone</h6>
@@ -10,4 +10,4 @@ let information = () => {
   )
 }
 
-export default information 
+export default information

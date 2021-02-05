@@ -1,7 +1,13 @@
 let SearchBar = () => {
   return(
     <div>
-      placeholder=Search for any IP address or domain
+      <input
+        type="text"
+        value=""
+        onChange=""
+        placeholder="Search for any IP address or domain"
+      >
+      </input>
     </div>
   )
 }
