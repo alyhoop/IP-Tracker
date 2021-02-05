@@ -1,5 +1,6 @@
 /*
 - BEM Naming
+- Alphabetical CSS properties
 
 The designs were created to the following widths:
 - Mobile: 375px
@@ -22,6 +23,12 @@ body {
   background-repeat: no-repeat;
 }
 
+button {
+  background-color: hsl(0, 0%, 17%);
+  height: 30px;
+  width: 30px;
+}
+
 h2 {
   color: white;
 }
@@ -38,4 +45,11 @@ input {
 
 .App {
   text-align: center;
+}
+
+.ip__information {
+  background-color: white;
+  border-radius: 5px;
+  height: 90px;
+  width: 1000px;
 }

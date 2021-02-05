@@ -8,6 +8,7 @@ let SearchBar = () => {
         placeholder="Search for any IP address or domain"
       >
       </input>
+      <button></button>
     </div>
   )
 }
