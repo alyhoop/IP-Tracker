@@ -24,6 +24,7 @@ body {
 
 button {
   background-color: hsl(0, 0%, 17%);
+  cursor: pointer;
   height: 30px;
   width: 30px;
 }
@@ -38,6 +39,7 @@ h6 {
 
 input {
   border-radius: 5px;
+  cursor: pointer;
   height: 30px;
   width: 400px;
 }
