@@ -26,12 +26,20 @@ button, input {
   cursor: pointer;
 }
 
+button {
+  background-color: hsl(0, 0%, 17%);
+}
+
 h2 {
   color: white;
 }
 
 h6 {
   color: hsl(0, 0%, 59%);
+}
+
+input {
+  min-width: 300px;
 }
 
 .App {
