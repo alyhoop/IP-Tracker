@@ -1,14 +1,16 @@
 let SearchBar = () => {
   return(
     <div>
-      <input
-        type="text"
-        value=""
-        onChange=""
-        placeholder="Search for any IP address or domain"
-      >
-      </input>
-      <button><i className="arrow"></i></button>
+      <form>
+        <input
+          type="text"
+          value=""
+          onChange=""
+          placeholder="Search for any IP address or domain"
+        >
+        </input>
+        <button><i className="arrow"></i></button>
+      </form>
     </div>
   )
 }
