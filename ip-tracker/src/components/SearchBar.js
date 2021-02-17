@@ -1,6 +1,6 @@
 let SearchBar = () => {
   return(
-    <div>
+    <div className="searchbar">
       <form>
         <input
           type="text"

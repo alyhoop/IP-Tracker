@@ -11,7 +11,7 @@ function IPLocation() {
   }, []);
 
   return (
-    <div>
+    <div className="ip__location">
       {JSON.stringify(data)}
     </div>
   );
