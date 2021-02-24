@@ -1,4 +1,4 @@
-let information = () => {
+let Information = () => {
   return (
     <div className="ip__information">
       <h6>IP Address</h6>
@@ -10,4 +10,4 @@ let information = () => {
   )
 }
 
-export default information
+export default Information
