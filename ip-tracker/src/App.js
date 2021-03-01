@@ -11,7 +11,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("https://vpn-proxy-detection.ipify.org/api/v1?apiKey=at_hyVlu8fTCFs7utA721MugqjzgxgqH&ipAddress=8.8.8.8&")
+      .get("")
       .then(response => setData(response.data))
   }, []);
         // {data.map(item => <li>{item.name}</li>)}
